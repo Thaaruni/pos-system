@@ -36,8 +36,6 @@ import { Component } from '@angular/core';
           <div class="border border-gray-400 p-2">
             <div class="flex space-x-4 mb-2">
               <span class="font-bold border-b-2 border-black px-2">Contact Details</span>
-              <span class="font-bold px-2 text-gray-500">Official Details</span>
-              <span class="font-bold px-2 text-gray-500">Personal Details</span>
             </div>
 
             <div class="grid grid-cols-2 gap-4">
@@ -69,7 +67,6 @@ import { Component } from '@angular/core';
             <div class="grid grid-cols-3 gap-4 mt-4">
               <input type="text" placeholder="Mobile No" class="w-full border p-1" />
               <input type="email" placeholder="E-mail" class="w-full border p-1" />
-              <input type="text" placeholder="Web" class="w-full border p-1" />
             </div>
           </div>
 
@@ -94,30 +91,48 @@ import { Component } from '@angular/core';
         </div>
 
         <div class="flex gap-4 mb-4 mt-4">
-          <div class="p-2 space-y-2 bg-white rounded shadow text-sm w-1/2">
-            <div class="flex justify-around mt-4">
-              <div class="space-x-2">
-                <button class="px-4 py-1 bg-green-500 text-white rounded">Save</button>
-                <button class="px-4 py-1 bg-gray-300 rounded" disabled>Delete</button>
-                <button class="px-4 py-1 bg-yellow-300 rounded">Clear All</button>
-                <button class="px-4 py-1 bg-red-500 text-white rounded">Exit</button>
-              </div>
+          <div class="p-4 bg-white rounded-xl shadow-md w-1/4 flex flex-col items-center space-y-2">
+            <div class="border rounded-lg overflow-hidden w-40 h-40">
+              <img src="assets/nic-photo.jpg" alt="NIC Photo" class="w-full h-full object-cover" />
             </div>
+            <span class="font-semibold text-gray-700 text-sm">ID Copy</span>
           </div>
-          <div class="p-2 space-y-2 bg-white rounded shadow text-sm w-1/2">
-            <div class="flex items-center space-x-2">
-              <label class="font-bold">Designation</label>
-              <select class="border p-1">
-                <option>&lt;&lt; All &gt;&gt;</option>
-              </select>
 
-              <label class="font-bold">Code</label>
-              <input type="text" class="border p-1 w-24" />
 
-              <label class="font-bold">Name</label>
-              <input type="text" class="border p-1 w-32" />
+            <div class="space-x-2">
+              <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-blue-600 hover:text-white transition duration-200 ">Save</button>
+              <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 " disabled>Delete</button>
+              <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-yellow-600 hover:text-white transition duration-200 ">Clear All</button>
+              <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 ">Exit</button>
             </div>
-          </div>
+
+
+<!--          <div class="p-2 space-y-2 bg-white rounded shadow text-sm w-3/4">-->
+<!--            <div class="flex justify-around mt-4">-->
+<!--              <div class="space-x-2">-->
+<!--                <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-blue-600 hover:text-white transition duration-200 ">Save</button>-->
+<!--                <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 " disabled>Delete</button>-->
+<!--                <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-yellow-600 hover:text-white transition duration-200 ">Clear All</button>-->
+<!--                <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 ">Exit</button>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+
+          <!--          <div class="p-2 space-y-2 bg-white rounded shadow text-sm w-1/2">-->
+<!--            <div class="flex items-center space-x-2">-->
+<!--              <label class="font-bold">Designation</label>-->
+<!--              <select class="border p-1">-->
+<!--                <option>&lt;&lt; All &gt;&gt;</option>-->
+<!--              </select>-->
+
+<!--              <label class="font-bold">Code</label>-->
+<!--              <input type="text" class="border p-1 w-24" />-->
+
+<!--              <label class="font-bold">Name</label>-->
+<!--              <input type="text" class="border p-1 w-32" />-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
       </div>
     </div>
