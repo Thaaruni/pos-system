@@ -90,7 +90,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
 
-        <div class="flex gap-4 mb-4 mt-4">
+        <div class="flex relative gap-4 mb-4 mt-4">
           <div class="p-4 bg-white rounded-xl shadow-md w-1/4 flex flex-col items-center space-y-2">
             <div class="border rounded-lg overflow-hidden w-40 h-40">
               <img src="assets/nic-photo.jpg" alt="NIC Photo" class="w-full h-full object-cover" />
@@ -99,12 +99,12 @@ import { Component } from '@angular/core';
           </div>
 
 
-            <div class="space-x-2">
+          <div class="space-x-2 absolute bottom-4 right-4">
               <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-blue-600 hover:text-white transition duration-200 ">Save</button>
               <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 " disabled>Delete</button>
               <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-yellow-600 hover:text-white transition duration-200 ">Clear All</button>
               <button class="bg-gray-200 text-sm font-bold px-3 py-1 mt-1 border border-gray-500 rounded cursor-pointer hover:bg-red-600 hover:text-white transition duration-200 ">Exit</button>
-            </div>
+          </div>
 
 
 <!--          <div class="p-2 space-y-2 bg-white rounded shadow text-sm w-3/4">-->
