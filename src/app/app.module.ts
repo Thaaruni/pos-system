@@ -16,6 +16,7 @@ import { ReportsComponent } from './home/reports/reports.component';
 import { LockComponent } from './home/lock/lock.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
+import { OfficeComponent } from './office/office.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PriceUpdateComponent } from './home/price-update/price-update.component
     ReportsComponent,
     LockComponent,
     CalculatorComponent,
-    PriceUpdateComponent
+    PriceUpdateComponent,
+    OfficeComponent
   ],
   imports: [
     BrowserModule,
