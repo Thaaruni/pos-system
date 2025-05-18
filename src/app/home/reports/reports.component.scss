@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.report-btn {
+  @apply w-full bg-white text-gray-800 font-medium py-2 px-4 rounded-lg shadow hover:bg-amber-100 transition;
+}
