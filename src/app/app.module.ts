@@ -16,6 +16,9 @@ import { ReportsComponent } from './home/reports/reports.component';
 import { LockComponent } from './home/lock/lock.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
+import { MasterDetailsComponent } from './home/item-master/master-details/master-details.component';
+import { ItemSearchComponent } from './home/item-master/item-search/item-search.component';
+import { PictureComponent } from './home/item-master/picture/picture.component';
 import { OrderComponent } from './home/order/order.component';
 
 
@@ -35,6 +38,9 @@ import { OrderComponent } from './home/order/order.component';
     LockComponent,
     CalculatorComponent,
     PriceUpdateComponent,
+    MasterDetailsComponent,
+    ItemSearchComponent,
+    PictureComponent,
     OrderComponent
   ],
   imports: [
