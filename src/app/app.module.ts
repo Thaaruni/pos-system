@@ -16,6 +16,8 @@ import { ReportsComponent } from './home/reports/reports.component';
 import { LockComponent } from './home/lock/lock.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { PriceUpdateComponent } from './home/price-update/price-update.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
