@@ -18,6 +18,7 @@ import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
 import { OrderComponent } from './home/order/order.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
