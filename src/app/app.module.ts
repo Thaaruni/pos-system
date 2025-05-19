@@ -16,7 +16,7 @@ import { ReportsComponent } from './home/reports/reports.component';
 import { LockComponent } from './home/lock/lock.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
-import { OrderComponent } from './order/order.component';
+import { OrderComponent } from './home/order/order.component';
 
 @NgModule({
   declarations: [
