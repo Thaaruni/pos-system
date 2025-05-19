@@ -13,6 +13,7 @@ import {SupplierComponent} from './home/supplier/supplier.component';
 import {ReportsComponent} from './home/reports/reports.component';
 import {LockComponent} from './home/lock/lock.component';
 import {CalculatorComponent} from './home/calculator/calculator.component';
+import {OrderComponent} from './home/order/order.component';
 
 const routes: Routes = [
   {
@@ -76,6 +77,10 @@ const routes: Routes = [
       {
         path: 'calculator',
         component: CalculatorComponent
+      },
+      {
+        path: 'order',
+        component: OrderComponent
       }
     ]
   }
