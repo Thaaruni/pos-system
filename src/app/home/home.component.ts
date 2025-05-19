@@ -18,6 +18,7 @@ import { Component } from '@angular/core';
         <li class="p-2 rounded cursor-pointer hover:bg-gray-200 hover:text-black active:bg-gray-400 active:text-white" routerLink="reports" routerLinkActive="bg-gray-300 text-black">reports</li>
         <li class="p-2 rounded cursor-pointer hover:bg-gray-200 hover:text-black active:bg-gray-400 active:text-white" routerLink="lock" routerLinkActive="bg-gray-300 text-black">lock</li>
         <li class="p-2 rounded cursor-pointer hover:bg-gray-200 hover:text-black active:bg-gray-400 active:text-white" routerLink="calculator" routerLinkActive="bg-gray-300 text-black">calculator</li>
+        <li class="p-2 rounded cursor-pointer hover:bg-gray-200 hover:text-black active:bg-gray-400 active:text-white" routerLink="order" routerLinkActive="bg-gray-300 text-black">Order</li>
       </div>
       <div>
         <router-outlet/>

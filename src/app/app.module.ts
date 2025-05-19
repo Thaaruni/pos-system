@@ -19,6 +19,8 @@ import { PriceUpdateComponent } from './home/price-update/price-update.component
 import { MasterDetailsComponent } from './home/item-master/master-details/master-details.component';
 import { ItemSearchComponent } from './home/item-master/item-search/item-search.component';
 import { PictureComponent } from './home/item-master/picture/picture.component';
+import { OrderComponent } from './home/order/order.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { PictureComponent } from './home/item-master/picture/picture.component';
     PriceUpdateComponent,
     MasterDetailsComponent,
     ItemSearchComponent,
-    PictureComponent
+    PictureComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
