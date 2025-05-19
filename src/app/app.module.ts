@@ -17,9 +17,7 @@ import { LockComponent } from './home/lock/lock.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 import { PriceUpdateComponent } from './home/price-update/price-update.component';
 import { MasterDetailsComponent } from './home/item-master/master-details/master-details.component';
-import { MoreDetailComponent } from './home/item-master/more-detail/more-detail.component';
 import { ItemSearchComponent } from './home/item-master/item-search/item-search.component';
-import { ViewOptionsComponent } from './home/item-master/view-options/view-options.component';
 import { PictureComponent } from './home/item-master/picture/picture.component';
 
 @NgModule({
@@ -39,9 +37,7 @@ import { PictureComponent } from './home/item-master/picture/picture.component';
     CalculatorComponent,
     PriceUpdateComponent,
     MasterDetailsComponent,
-    MoreDetailComponent,
     ItemSearchComponent,
-    ViewOptionsComponent,
     PictureComponent
   ],
   imports: [

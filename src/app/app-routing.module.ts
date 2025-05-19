@@ -14,9 +14,7 @@ import {ReportsComponent} from './home/reports/reports.component';
 import {LockComponent} from './home/lock/lock.component';
 import {CalculatorComponent} from './home/calculator/calculator.component';
 import {MasterDetailsComponent} from './home/item-master/master-details/master-details.component';
-import {MoreDetailComponent} from './home/item-master/more-detail/more-detail.component';
 import {ItemSearchComponent} from './home/item-master/item-search/item-search.component';
-import {ViewOptionsComponent} from './home/item-master/view-options/view-options.component';
 import {PictureComponent} from './home/item-master/picture/picture.component';
 
 const routes: Routes = [
@@ -52,17 +50,10 @@ const routes: Routes = [
             component: MasterDetailsComponent
           },
           {
-            path: 'more-detail',
-            component: MoreDetailComponent
-          },
-          {
             path: 'item-search',
             component: ItemSearchComponent
           },
           {
-            path: 'view-options',
-            component: ViewOptionsComponent
-          },{
             path: 'picture',
             component: PictureComponent
           }

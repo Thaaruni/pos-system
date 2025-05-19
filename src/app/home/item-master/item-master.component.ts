@@ -20,20 +20,13 @@ import {NavigationEnd, Router} from '@angular/router';
             <!-- Add item group options here -->
           </select>
         </div>
-
         <!-- Row 2 -->
-        <div class="grid grid-cols-12 gap-4 items-center">
+        <div class="grid grid-cols-6 gap-4 items-center">
           <label class="col-span-1 text-sm font-medium text-gray-700">Item Code</label>
           <input type="text" class="col-span-2 px-2 py-1 border border-gray-300 rounded bg-white" />
 
           <label class="col-span-1 text-sm font-medium text-gray-700">Sin Name</label>
           <input type="text" class="col-span-2 px-2 py-1 border border-gray-300 rounded bg-white" />
-
-          <label class="col-span-2 text-sm font-medium text-gray-700">Sub Group</label>
-          <select class="mt-1 w-40 px-2 py-1 border border-gray-300 rounded bg-white">
-            <option value="">-- None --</option>
-            <!-- Add item group options here -->
-          </select>
         </div>
       </div>
       <div class="flex border-b border-gray-300 space-x-4 justify-around">
@@ -49,16 +42,6 @@ import {NavigationEnd, Router} from '@angular/router';
 
         <button
           [ngClass]="{
-      'text-blue-600 border-blue-600': isActive('more-detail'),
-      'text-gray-600 border-transparent': !isActive('more-detail')
-    }"
-          class="pb-2 text-sm hover:text-blue-600 hover:border-blue-600 border-b-2 hover:bg-white"
-          [routerLink]="'more-detail'">
-          More Detail
-        </button>
-
-        <button
-          [ngClass]="{
       'text-blue-600 border-blue-600': isActive('item-search'),
       'text-gray-600 border-transparent': !isActive('item-search')
     }"
@@ -66,17 +49,6 @@ import {NavigationEnd, Router} from '@angular/router';
           [routerLink]="'item-search'">
           Item Search
         </button>
-
-        <button
-          [ngClass]="{
-      'text-blue-600 border-blue-600': isActive('view-options'),
-      'text-gray-600 border-transparent': !isActive('view-options')
-    }"
-          class="pb-2 text-sm hover:text-blue-600 hover:border-blue-600 border-b-2 hover:bg-white"
-          [routerLink]="'view-options'">
-          View Options
-        </button>
-
         <button
           [ngClass]="{
       'text-blue-600 border-blue-600': isActive('picture'),

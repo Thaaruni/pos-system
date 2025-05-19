@@ -45,30 +45,13 @@ import { Component } from '@angular/core';
           <thead class="bg-gray-100">
           <tr>
             <th class="border px-4 py-2">Item Name</th>
-            <th class="border px-4 py-2">Description</th>
-            <th class="border px-4 py-2">Available Qty</th>
-            <th class="border px-4 py-2">Unit Price</th>
           </tr>
           </thead>
           <tbody class="bg-white">
           <tr>
             <td class="border px-4 py-2 h-10"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
           </tr>
-          <tr>
-            <td class="border px-4 py-2 h-10"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
-          </tr>
-          <tr>
-            <td class="border px-4 py-2 h-10"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
-            <td class="border px-4 py-2"></td>
-          </tr>
+
           </tbody>
         </table>
       </div>
